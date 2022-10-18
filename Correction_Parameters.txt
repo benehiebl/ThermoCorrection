@@ -1,8 +1,8 @@
 #########################################################################################################
-### Input Parameters for Correction.py
+### Input Parameters for ThermoCorrection.py
 ### atmospheric and emissivity Correction of Thermo Images (.asc) 
 ###
-### this file has to be within the same directory as Correction.py
+### this file has to be within the same directory as ThermoCorrection.py
 #########################################################################################################
 #
 #
