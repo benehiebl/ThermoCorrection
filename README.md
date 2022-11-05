@@ -7,13 +7,13 @@ An atmospheric and emissivity correction for georeferenced thermal infrared imag
 based on Caselles et al. (1996), Kodimalar et al. (2020), Wiecek (2011) and Minkina et al. (2016).
 
 Input requirements:
-•	Georeferenced thermo raster images (.tif) + timeinfo
-•	DSM
-•	FVC
-•	Red Band (optional)
+•	Georeferenced thermo raster images (.tif) + timeinfo (.csv)
+•	DSM (.tif)
+•	FVC (.tif)
+•	Red Band RGB image (optional, snow detection) (.tif)
 •	Camera location
-•	Vertical gradients air temperature and humidity
 •	Emissivity for soil/vegetation
+•	Vertical gradients of air temperature and humidity (.csv)
 •	Radiance air, downwelling radiance (optional)
 
 Define Input Parameters in Correction_Parameters.txt
