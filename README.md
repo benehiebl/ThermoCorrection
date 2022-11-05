@@ -1,7 +1,7 @@
 # ThermoCorrection
 version: 1.3
 Author: Bene Hiebl
-Date: 20.12.2021
+Date: 05.11.2021
 
 An atmospheric and emissivity correction for georeferenced thermal infrared images from close range sensing
 based on Caselles et al. (1996), Kodimalar et al. (2020), Wiecek (2011) and Minkina et al. (2016).
