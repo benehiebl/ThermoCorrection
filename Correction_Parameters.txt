@@ -3,6 +3,7 @@
 ### atmospheric and emissivity Correction of Thermo Images (.asc) 
 ###
 ### this file has to be within the same directory as Correction.py
+### do not change file format!!! (# -> comment and info lines)
 #########################################################################################################
 #
 #
@@ -13,7 +14,7 @@ TIME_INFO	=	C:\Users\beneh\Desktop\DataThermo\ThermoASCII\210811AA\timeinfo_2108
 DSM_INPUT	=	C:\Users\beneh\Desktop\DataThermo\DOM_small\small-DOM_05_25832.tif
 VI_INPUT	=	C:\Users\beneh\Desktop\DataThermo\MonoTest\wannenkogel-2021-08-12\ExGreen-wannenkogel-2021-08-12_raster.tif
 FV_INPUT	=	C:\Users\beneh\Desktop\DataThermo\MonoTest\wannenkogel-2021-08-12\FVC-ExGreen-wannenkogel-2021-08-12_raster.tif
-RED_INPUT	= 	C:\Users\beneh\Desktop\DataThermo\MonoTest\MaxRGB\MaxRGB-resample2-wannenkogel-2021-08-12_raster_red.tif
+RED_INPUT	=	C:\Users\beneh\Desktop\DataThermo\MonoTest\MaxRGB\MaxRGB-resample2-wannenkogel-2021-08-12_raster_red.tif
 #
 ### Camera location coordinates (same projection as DSM)
 CAMLOCATION_X	=	657771
