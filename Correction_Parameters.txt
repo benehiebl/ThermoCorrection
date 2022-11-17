@@ -1,0 +1,35 @@
+#########################################################################################################
+### Input Parameters for Correction.py
+### atmospheric and emissivity Correction of Thermo Images (.asc) 
+###
+### this file has to be within the same directory as Correction.py
+#########################################################################################################
+#
+#
+### filenames of DSM and Image (has to be format .tif and .asc)
+OUTPUT_LOC	=	C:\Users\beneh\Desktop\DataThermo\Correction\211027AB_corrected
+THERMO_FOLDER	=	C:\Users\beneh\Desktop\DataThermo\MonoTest\211027AB\211027AB
+TIME_INFO	=	C:\Users\beneh\Desktop\DataThermo\ThermoASCII\211027AB\timeinfo_211027AB.csv
+DSM_INPUT	=	C:\Users\beneh\Desktop\DataThermo\DOM_small\small-DOM_05_25832.tif
+VI_INPUT	=	C:\Users\beneh\Desktop\DataThermo\MonoTest\wannenkogel-2021-10-27\ExGreen-wannenkogel-2021-10-27_raster.tif
+FV_INPUT	=	C:\Users\beneh\Desktop\DataThermo\MonoTest\wannenkogel-2021-10-27\FVC-ExGreen-wannenkogel-2021-10-27_raster.tif
+RED_INPUT	=	C:\Users\beneh\Desktop\DataThermo\MonoTest\MaxRGB\MaxRGB-resample2-wannenkogel-2021-10-27_raster_red.tif
+#
+### Camera location coordinates (same projection as DSM)
+CAMLOCATION_X	=	657771
+CAMLOCATION_Y	=	5209864
+CAMLOCATION_Z	=	2434
+#
+### Station data (Meteo)
+VERTICAL_GRAD	=	C:\Users\beneh\Desktop\DataThermo\MeteoRaw\meteostations_20211027_gradients.csv		
+#
+### Parameters for Correction
+EM_CONST	=	0.005
+LSE_VEGETATION	=	0.985
+LSE_SOIL	=	0.945
+LSE_SNOW	=	0.96
+LAMBDA_MIN	=	7.5
+LAMBDA_MAX	=	14
+#
+### Cloud Cover 0-1 (optional), default 0
+CLOUD_COVER	=	0.0
